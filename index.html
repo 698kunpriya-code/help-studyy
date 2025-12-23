@@ -308,7 +308,7 @@
         });
 
         function generateSummary(text, type) {
-            const maxLength = { short: 500, medium: 1000, detailed: 1500 };
+            const maxLength = { short: 500, medium: 800, detailed: 1500 };
             const summaries = {
                 short: `📝 **สรุปสำคัญ:**\n${text.slice(0, maxLength.short)}...\n\n✅ **คีย์พอยต์ 3 ข้อ:**\n1. ลักษณะหลัก\n2. ความแตกต่าง\n3. ตัวอย่างสำคัญ`,
                 medium: `📖 **สรุปครบถ้วน:**\n\n${text.slice(0, maxLength.medium)}...\n\n📚 **เหมาะสำหรับทบทวนก่อนสอบ**`,
